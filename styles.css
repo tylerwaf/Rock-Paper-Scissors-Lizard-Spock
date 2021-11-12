@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  background-color: #4f8a8b;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 225px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.header img {
+  width: 200px;
+  height: auto;
+  position: relative;
+}
+
+.header .sheldonFace {
+  position: relative;
+  bottom: 425px;
+  right: 765px;
+}
+
+.header .rulesBtn {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #c4fb6d;
+  border-radius: 8px;
+}
+
+.header .rulesBtn:hover {
+  background-color: #f6c065;
+}
+
+.header .playBtn {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #c4fb6d;
+  border-radius: 8px;
+}
+
+.header .playBtn:hover {
+  background-color: #f6c065;
+}
+
+.header .headerTitle {
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
+#rulesDiv {
+  text-align: center;
+  background-color: #f8efd4;
+  padding-bottom: 750px;
+  padding-top: 35px;
+}
+
+#rulesDiv h1 {
+  font-family: 'Zen Kurenaido', sans-serif;
+  padding-bottom: 45px;
+}
+
+#rulesDiv .rulesList {
+  text-align: center;
+  background-color: #edc988;
+  border-radius: 30px;
+  padding: 25px;
+  width: 650px;
+  height: 300px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#rulesDiv .playBtn {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #fbd46d;
+  border-radius: 8px;
+  position: relative;
+  top: 350px;
+}
+
+#rulesDiv .playBtn:hover {
+  background-color: #f6c065;
+}
+
+#playDiv {
+  padding-top: 125px;
+  padding-bottom: 750px;
+  background-color: #ccffbd;
+  text-align: center;
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
+#playDiv h1 {
+  padding-bottom: 30px;
+}
+
+#playDiv #playField {
+  text-align: center;
+  background-color: #2fdd92;
+  border-radius: 30px;
+  padding-top: 35px;
+  width: 650px;
+  height: 300px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#playDiv #playField .h3 {
+  padding-bottom: 6px;
+}
+
+#playDiv #playField .btn {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #fbd46d;
+  border-radius: 8px;
+}
+
+#playDiv #playField .btn:hover {
+  background-color: #f6c065;
+}
+
+#playDiv #playField #playResults {
+  font-size: 2rem;
+}
